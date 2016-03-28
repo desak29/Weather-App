@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var apiKey = 'e312dbeb8840e51f92334498a261ca1d';
+	var apiKey = 'c67844a34051bc35ed809ffaa4f66b25';
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/weather?q=Atlanta&units=imperial&appid='+apiKey;
 
 	$.getJSON(weatherURL, function(weatherData){
